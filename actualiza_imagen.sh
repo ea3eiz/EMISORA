@@ -1,5 +1,5 @@
 #!/bin/bash
-#Actualiza imagen
+#Actualiza  macbook
                         cd /home/pi
                         sudo rm -R B108
                         git clone http://github.com/ea3eiz/EMISORA
