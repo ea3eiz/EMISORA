@@ -1,11 +1,7 @@
 #!/bin/bash
-
+sudo killall -9 MMDVMPLUS
 sudo sed -i '6c MMDVMPLUS=ON' /home/pi/status.ini
 cd /home/pi/MMDVMHost
-echo "\33[1;37m"
-echo " **************************************************************************"
-echo "                               ABRIENDO DMR++                              "
-echo " **************************************************************************"
-sleep 2
-#/home/pi/A108/./qt_info_dmrplus & sudo ./MMDVMPLUS MMDVMPLUS.ini
 sudo ./MMDVMPLUS MMDVMPLUS.ini
+xterm -geometry 73x10+16+151 -bg black -fg orange -fa ‘verdana’ -fs 8x -T CONSOLA_DMRPLUS -e sudo ./MMDVMPLUS MMDVPLUS.ini
+
