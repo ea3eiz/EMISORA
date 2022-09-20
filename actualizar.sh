@@ -114,6 +114,12 @@ cd /home/pi/B108
 ./qt_OpenPanelM17 &
 fi
 
+sistema16=$(awk "NR==16" /home/pi/selector_sistemas.ini)
+if [ "$sistema16" = 'DV4MINI=CHECK_ON' ];then
+cd /home/pi/B108
+./qt_OpenPanelDv4mini &
+fi
+
 # path usuario 
 usuario="/home/pi"
 usuario="$usuario"
