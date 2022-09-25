@@ -11,4 +11,4 @@ xterm -geometry 77x3+1276+121 -bg yellow -fg black -fa 'Verdana' -fs 9x -T YSFGA
 sleep 1
 
 cd /home/pi/MMDVMHost
-xterm -geometry 77x5+1276+197 -bg yellow -fg black -fa ‘verdana’ -fs 9x -T MMDVMDMR2YSF -e sudo ./DMR2YSF MMDVMDMR2YSF.ini
+xterm -geometry 77x5+1276+208 -bg yellow -fg black -fa ‘verdana’ -fs 9x -T MMDVMDMR2YSF -e sudo ./DMR2YSF MMDVMDMR2YSF.ini
