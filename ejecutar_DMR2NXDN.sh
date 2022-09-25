@@ -11,4 +11,4 @@ xterm -geometry 77x5+1276+209 -bg violet -fg black -fa ‘verdana’ -fs 9x -T M
 sleep 1
 
 cd /home/pi/NXDNClients/NXDNGateway
-xterm -geometry 77x3+1276+132 -bg violet -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
+xterm -geometry 77x3+1276+132 -bg violet -fg black -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
