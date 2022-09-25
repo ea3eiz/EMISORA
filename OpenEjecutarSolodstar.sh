@@ -22,7 +22,7 @@ sudo sed -i '13c SOLODSTAR=ON' /home/pi/status.ini
 cd /home/pi/MMDVMHost
 sudo ircddbgateway -gui & 
 
-xterm -geometry 77x9+1276+151 -bg green -fg white -fa ‘verdana’ -fs 9x -T DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini &
+xterm -geometry 77x9+1276+56 -bg Green -fg black -fa 'verdana' -fs 9x -T DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini &
 #sudo ./MMDVMDSTAR MMDVMDSTAR.ini
 sudo sed -i '13c SOLODSTAR=ON' /home/pi/status.ini
 
