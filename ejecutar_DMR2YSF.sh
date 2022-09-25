@@ -6,9 +6,9 @@ xterm -geometry 77x2+1276+56 -bg yellow -fg black -fa 'Verdana' -fs 9x -T DMR2YS
 sleep 1
 
 cd /home/pi/YSFClients/YSFGateway/
-xterm -geometry 77x3+1276+123 -bg yellow -fg black -fa 'Verdana' -fs 9x -T YSFGATEWAY -e sudo ./YSFGateway YSFGateway.ini &
+xterm -geometry 77x3+1276+121 -bg yellow -fg black -fa 'Verdana' -fs 9x -T YSFGATEWAY -e sudo ./YSFGateway YSFGateway.ini &
 
 sleep 1
 
 cd /home/pi/MMDVMHost
-xterm -geometry 77x6+1276+194 -bg yellow -fg black -fa ‘verdana’ -fs 9x -T MMDVMDMR2YSF -e sudo ./DMR2YSF MMDVMDMR2YSF.ini
+xterm -geometry 77x5+1276+197 -bg yellow -fg black -fa ‘verdana’ -fs 9x -T MMDVMDMR2YSF -e sudo ./DMR2YSF MMDVMDMR2YSF.ini
