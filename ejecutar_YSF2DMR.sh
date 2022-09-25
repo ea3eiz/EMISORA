@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/pi/YSF2DMR
-xterm -geometry 77x+1276+56 -bg blue -fg white -fa 'Verdana' -fs 9x -T YSF2DMR -e ./YSF2DMR YSF2DMR.ini &
+xterm -geometry 77x4+1276+56 -bg blue -fg white -fa 'Verdana' -fs 9x -T YSF2DMR -e ./YSF2DMR YSF2DMR.ini &
 
 sleep 1 
 
