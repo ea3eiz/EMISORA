@@ -28,7 +28,7 @@ sudo ./DMRGateway DMRGateway.ini &
 sleep 2
 cd /home/pi/MMDVMHost
 #sudo ./MMDVMDMRGATEWAY MMDVMDMRGateway.ini 
-sudo xterm -geometry 87x12+1200+56 -bg white -fg black -fa 'Verdana' -fs 9x -T MMDVMDMRGateway -e ./MMDVMDMRGATEWAY MMDVMDMRGateway.ini &
+sudo xterm -geometry 87x17+1200+56 -bg white -fg black -fa 'Verdana' -fs 9x -T MMDVMDMRGateway -e ./MMDVMDMRGATEWAY MMDVMDMRGateway.ini &
 
 
 
