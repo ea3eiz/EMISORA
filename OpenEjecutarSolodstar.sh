@@ -20,7 +20,10 @@ sudo systemctl stop ircddbgatewayd
 # Ejecuta Solo D-STAR
 sudo sed -i '13c SOLODSTAR=ON' /home/pi/status.ini
 cd /home/pi/MMDVMHost
-sudo ircddbgateway -gui & sudo ./MMDVMDSTAR MMDVMDSTAR.ini
+sudo ircddbgateway -gui & 
+
+xterm -geometry 77x9+1276+151 -bg blue -fg white -fa ‘verdana’ -fs 9x -T DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini
+#sudo ./MMDVMDSTAR MMDVMDSTAR.ini
 sudo sed -i '13c SOLODSTAR=ON' /home/pi/status.ini
 
 
